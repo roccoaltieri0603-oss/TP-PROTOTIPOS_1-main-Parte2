@@ -38,22 +38,19 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        // Reiniciar con R, incluso si ya ganaste o perdiste
-        if (Input.GetKeyDown(KeyCode.R))
+
+        if (Input.GetKeyDown(KeyCode.R) && juegoTerminado)
         {
             ReiniciarEscena();
         }
 
-        // Si el juego terminó, no sigue bajando el tiempo
         if (juegoTerminado == true)
         {
             return;
         }
 
-        // Bajar el tiempo
         tiempoActual = tiempoActual - Time.deltaTime;
 
-        // Perder si llega a 0
         if (tiempoActual <= 0)
         {
             tiempoActual = 0;
@@ -72,7 +69,6 @@ public class GameManager : MonoBehaviour
 
         objetosAgarrados++;
 
-        // Ganar si agarraste todos los objetos
         if (objetosAgarrados >= totalObjetos)
         {
             Ganar();
