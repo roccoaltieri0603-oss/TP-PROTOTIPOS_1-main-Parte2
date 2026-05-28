@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textoTiempo;
     public TextMeshProUGUI textoMensaje;
 
+    public GameObject panelMensaje;
+
+    public MonoBehaviour scriptMovimientoJugador;
+
     public float tiempoInicial = 60f;
 
     private float tiempoActual;
@@ -24,6 +28,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1f;
+
+        juegoTerminado = false;
         tiempoActual = tiempoInicial;
 
         totalObjetos = FindObjectsOfType<Pickup>().Length;
@@ -33,12 +40,21 @@ public class GameManager : MonoBehaviour
             textoMensaje.text = "";
         }
 
+        if (panelMensaje != null)
+        {
+            panelMensaje.SetActive(false);
+        }
+
+        if (scriptMovimientoJugador != null)
+        {
+            scriptMovimientoJugador.enabled = true;
+        }
+
         ActualizarUI();
     }
 
     private void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.R) && juegoTerminado)
         {
             ReiniciarEscena();
@@ -106,6 +122,8 @@ public class GameManager : MonoBehaviour
         {
             textoMensaje.text = "¡Ganaste!\nPresiona R para reiniciar";
         }
+
+        TerminarJuego();
     }
 
     private void Perder()
@@ -116,10 +134,28 @@ public class GameManager : MonoBehaviour
         {
             textoMensaje.text = "Perdiste\nPresiona R para reiniciar";
         }
+
+        TerminarJuego();
+    }
+
+    private void TerminarJuego()
+    {
+        if (panelMensaje != null)
+        {
+            panelMensaje.SetActive(true);
+        }
+
+        if (scriptMovimientoJugador != null)
+        {
+            scriptMovimientoJugador.enabled = false;
+        }
+
+        Time.timeScale = 0f;
     }
 
     private void ReiniciarEscena()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
