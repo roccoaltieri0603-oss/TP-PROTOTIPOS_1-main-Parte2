@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: c76b894c20cfab44eba9b9f06624e1c2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Marco_Ventana.002
+    2100002: Vidrio_Ventana.002
+    2100004: Material
+    2100006: Material.001
+    2100008: Material.003
+    2100010: Marco_Ventana
+    2100012: Vidrio_Ventana
+    2100014: Marco_Ventana.001
+    2100016: Vidrio_Ventana.001
+    2100018: Marco_Ventana.003
+    2100020: Vidrio_Ventana.003
+    2100022: Marco_Ventana.004
+    2100024: Vidrio_Ventana.004
+    2100026: PisoGranito
+    2100028: Material.004
+    2100030: Aluminio.002
+    2100032: PanelBlanco.002
+    2100034: PanelVerde.002
+    2100036: VidrioClar.001
+    2100038: Material.011
+    2100040: Vidrio.001
+    2100042: Aluminio.003
+    2100044: PanelBlanco.003
+    2100046: PanelVerde.003
+    2100048: VidrioClar.002
+    2100050: Material.013
+    2100052: Vidrio.002
+    2100054: Aluminio.004
+    2100056: PanelBlanco.004
+    2100058: PanelVerde.004
+    2100060: VidrioClar.003
+    2100062: Material.015
+    2100064: Vidrio.003
+    2100066: Aluminio.005
+    2100068: PanelBlanco.005
+    2100070: PanelVerde.005
+    2100072: VidrioClar.004
+    2100074: Material.017
+    2100076: Vidrio.004
+    2100078: Aluminio.006
+    2100080: PanelBlanco.006
+    2100082: PanelVerde.006
+    2100084: VidrioClar.005
+    2100086: Material.019
+    2100088: Vidrio.005
+    2100090: Material.023
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Piso.005
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
