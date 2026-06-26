@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 11e6766bc1466a8439e842cdec40bd9d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Marco_Ventana
+    2100002: Vidrio_Ventana
+    2100004: Material
+    2100006: Marco_Ventana.002
+    2100008: Vidrio_Ventana.002
+    2100010: Material.024
+    2100012: Aluminio.009
+    2100014: PanelBlanco.009
+    2100016: PanelVerde.009
+    2100018: VidrioClar.008
+    2100020: Material.027
+    2100022: Vidrio.008
+    2100024: Manija
+    2100026: Material.001
+    2100028: Material.003
+    2100030: Marco_Ventana.001
+    2100032: Vidrio_Ventana.001
+    2100034: Marco_Ventana.003
+    2100036: Vidrio_Ventana.003
+    2100038: Marco_Ventana.004
+    2100040: Vidrio_Ventana.004
+    2100042: Material.004
+    2100044: Aluminio.002
+    2100046: PanelBlanco.002
+    2100048: PanelVerde.002
+    2100050: VidrioClar.001
+    2100052: Material.011
+    2100054: Vidrio.001
+    2100056: Aluminio.003
+    2100058: PanelBlanco.003
+    2100060: PanelVerde.003
+    2100062: VidrioClar.002
+    2100064: Material.013
+    2100066: Vidrio.002
+    2100068: Aluminio.004
+    2100070: PanelBlanco.004
+    2100072: PanelVerde.004
+    2100074: VidrioClar.003
+    2100076: Material.015
+    2100078: Vidrio.003
+    2100080: Aluminio.005
+    2100082: PanelBlanco.005
+    2100084: PanelVerde.005
+    2100086: VidrioClar.004
+    2100088: Material.017
+    2100090: Vidrio.004
+    2100092: Aluminio.006
+    2100094: PanelBlanco.006
+    2100096: PanelVerde.006
+    2100098: VidrioClar.005
+    2100100: Material.019
+    2100102: Vidrio.005
+    2100104: Material.023
+    2100106: Material.033
+    2100108: Material.029
+    2100110: Material.030
+    2100112: Aluminio.010
+    2100114: PanelBlanco.010
+    2100116: Material.032
+    2100118: PanelVerde.010
+    2100120: VidrioClar.009
+    2100122: Material.031
+    2100124: Vidrio.009
+    2100126: Manija.001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Piso.029
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.002
+    second: {fileID: 2100000, guid: b60b6c38ce998644ebf702210d673fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.003
+    second: {fileID: 2100000, guid: c0bcfb3bb169c0049bf849f0c818157c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.004
+    second: {fileID: 2100000, guid: d53071899695d394f92993bc4c1f651b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.005
+    second: {fileID: 2100000, guid: 6aea145cd0c6e474db672db29e45d5aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.006
+    second: {fileID: 2100000, guid: fde3dffac9cb7b642820f153b3f36862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.009
+    second: {fileID: 2100000, guid: 7693831b79d086242bead1a0a1e12dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio.010
+    second: {fileID: 2100000, guid: c0ad237592ba8f74785a12f6b1b84c0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija
+    second: {fileID: 2100000, guid: 3702f8168b171c24c9b3cbdd0b8dffee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manija.001
+    second: {fileID: 2100000, guid: 90ce7878cbeacef43bafbc43f3375c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_Ventana
+    second: {fileID: 2100000, guid: 9e7da67c85b320744a9ac0abfab6a396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_Ventana.001
+    second: {fileID: 2100000, guid: 07f7c791265c71240a0257aa5c82e602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_Ventana.002
+    second: {fileID: 2100000, guid: ebcd522967cedd9499ae2868bd0d95e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_Ventana.003
+    second: {fileID: 2100000, guid: 4ca5ea998ce273b4ba9e960ad3e2cd47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marco_Ventana.004
+    second: {fileID: 2100000, guid: 32ed96197d6acbf4cbbe66d6d4ef47cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: d4bb5cad8ee31924f9507b0cbd43e178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 6a270641d0a6dd24c91d5dcc6be66946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 1c80010fa1051744eac991e05fc1ab50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: efd9f30f38a8338438eddf341bbcf44d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 7388a1ce46fb82d4b9e802c56ec1a969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 361848f60202b394b947d826baa8268f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 4ab567d44dd0c7045a40b26fc74c22a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 01acf156a1647bd41b0841145cf518de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: a08fcc502211f344da780781c9006eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: a407a6dfcdedf934a8de8dc33dd5d860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: f02dd35076a4c254d9acd5e0086938f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.027
+    second: {fileID: 2100000, guid: 7a0b4100641137d4fba8fe76e593b97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.029
+    second: {fileID: 2100000, guid: d6d5cbb04d01f624cb4d6b219d215676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.030
+    second: {fileID: 2100000, guid: 67ca08c803481c14e9fd18bb099ee8c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.031
+    second: {fileID: 2100000, guid: 7cb334b3cde31094583111240cce7da2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.032
+    second: {fileID: 2100000, guid: 1fe7ee0b93feabd4eb155bfedaa601dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.033
+    second: {fileID: 2100000, guid: b548110e74c59e74b8852bd9570cd0ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.002
+    second: {fileID: 2100000, guid: f78c72e30e7848846930bb0b23fd50dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.003
+    second: {fileID: 2100000, guid: d4dfec9b70423fe4ca033749aa21b190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.004
+    second: {fileID: 2100000, guid: fbb9e9746dea63c4b93883fdaaa4b0e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.005
+    second: {fileID: 2100000, guid: b3c5891ac9915a746ab572015dab1b76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.006
+    second: {fileID: 2100000, guid: 99c9e1dc5595dbd4d8774625e89e4ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.009
+    second: {fileID: 2100000, guid: e63ea8d4560660a48bed98957cdde7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelBlanco.010
+    second: {fileID: 2100000, guid: 155e219b834d4b544ad4bd2a7e607cc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.002
+    second: {fileID: 2100000, guid: 7793742809eba67468432d40c5815f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.003
+    second: {fileID: 2100000, guid: 990fc45cf4ac17445a39885cb71a4c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.004
+    second: {fileID: 2100000, guid: e36a57e67ba403045a1ae39408d6e540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.005
+    second: {fileID: 2100000, guid: b92076cec990caf4090e244de0b62f37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.006
+    second: {fileID: 2100000, guid: 8d37fee1d40c0f84abff81004b79bb9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.009
+    second: {fileID: 2100000, guid: 1edeffd0f395b224883bdb7fd9532bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PanelVerde.010
+    second: {fileID: 2100000, guid: 69e022c493120e34bb4a7089e9911c8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.001
+    second: {fileID: 2100000, guid: b58645996ee7f5f44b7fbbb771efb874, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.002
+    second: {fileID: 2100000, guid: cf165d18bda0761459129ff574c080b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.003
+    second: {fileID: 2100000, guid: a7719deb90659874796aed967dd56591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.004
+    second: {fileID: 2100000, guid: 47abd3d7c5ae94f408242140b4c3f7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.005
+    second: {fileID: 2100000, guid: b591afd86947fd34597a7e0344bdde1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.008
+    second: {fileID: 2100000, guid: 06bc0937292d12a42a17cfc5f8974aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio.009
+    second: {fileID: 2100000, guid: 7fce3d4c927ae8e42a4a744a3a627600, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.001
+    second: {fileID: 2100000, guid: 593626021bd15d9439bbf9dae5b6992a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.002
+    second: {fileID: 2100000, guid: d512e1fb0f90edf4b99f210fadd6ddae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.003
+    second: {fileID: 2100000, guid: 35c17c98cd0faa5478bf3ca1fc283251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.004
+    second: {fileID: 2100000, guid: 4c091e093757e9045988a168223b0adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.005
+    second: {fileID: 2100000, guid: 52b7f613661e75c43bcc2fe312e6ee39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.008
+    second: {fileID: 2100000, guid: 6f0c241bbeaaed54bb857938d669ea54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VidrioClar.009
+    second: {fileID: 2100000, guid: 37df718345d3e9e408fa47b7b79f3d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_Ventana
+    second: {fileID: 2100000, guid: 0252b8b718f6f044da54b75d42cdfb2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_Ventana.001
+    second: {fileID: 2100000, guid: a67dc6f8e983d2045a9aae775546ebe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_Ventana.002
+    second: {fileID: 2100000, guid: d7eb3b8dd55082742a69837627bc9669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_Ventana.003
+    second: {fileID: 2100000, guid: 5aed44bdafa03fc43b58b5f75c142f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio_Ventana.004
+    second: {fileID: 2100000, guid: efb95a3c04ea0094bab724869f83f53d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
