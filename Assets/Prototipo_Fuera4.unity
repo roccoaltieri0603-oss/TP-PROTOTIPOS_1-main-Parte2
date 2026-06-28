@@ -1294,13 +1294,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Labo_para_mapear1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 11e6766bc1466a8439e842cdec40bd9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11e6766bc1466a8439e842cdec40bd9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11e6766bc1466a8439e842cdec40bd9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11e6766bc1466a8439e842cdec40bd9d, type: 3}
       propertyPath: m_LocalPosition.z
